@@ -1,0 +1,11 @@
+{
+  "idiot": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "wurstminustwo:idiot_sound",
+        "stream": false
+      }
+    ]
+  }
+}

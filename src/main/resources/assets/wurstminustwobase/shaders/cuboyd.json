@@ -1,0 +1,32 @@
+{
+  "targets": [
+    "swap"
+  ],
+  "passes": [
+    {
+      "name": "bits",
+      "intarget": "minecraft:main",
+      "outtarget": "swap",
+      "uniforms": [
+        {
+          "name": "Resolution",
+          "values": [ 32.0 ]
+        },
+        {
+          "name": "MosaicSize",
+          "values": [ 2.0 ]
+        }
+      ]
+    },
+    {
+      "name": "scan_pincushion",
+      "intarget": "minecraft:main",
+      "outtarget": "swap"
+    },
+    {
+      "name": "blit",
+      "intarget": "swap",
+      "outtarget": "minecraft:main"
+    }
+  ]
+}

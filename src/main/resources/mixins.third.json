@@ -1,0 +1,24 @@
+{
+  "required": true,
+  "compatibilityLevel": "JAVA_8",
+  "package": "me.third.right.mixin.client",
+  "refmap": "mixins.third.refmap.json",
+  "minVersion": "0.4-SNAPSHOT",
+  "client": [
+    "MixinBlockLiquid",
+    "MixinEntity",
+    "MixinEntityPlayer",
+    "MixinEntityPlayerSP",
+    "MixinGuiConnecting",
+    "MixinGuiDisconnected",
+    "MixinGuiMainMenu",
+    "MixinGuiPlayerTabOverlay",
+    "MixinItemRenderer",
+    "MixinMinecraft",
+    "MixinNetworkManager",
+    "MixinPlayerControllerMP",
+    "MixinWorld",
+    "baritone.MixinBaritoneSettings",
+    "MixinBlockModelRenderer"
+  ]
+}

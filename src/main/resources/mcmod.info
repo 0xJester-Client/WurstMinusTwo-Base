@@ -1,0 +1,15 @@
+[
+  {
+    "modid": "wurstminustwo",
+    "name": "Wurst- 2",
+    "description": "WurstMinusTwo big hack.",
+    "version": "3.4",
+    "mcversion": "1.12.2",
+    "logoFile": "based.png",
+    "url": "",
+    "updateUrl": "",
+    "authorList": ["Third_Right"],
+    "screenshots": [],
+    "dependencies": ["CustomMainMenu"]
+  }
+]
